@@ -1,4 +1,6 @@
 # MAUS
+<img src="https://github.com/MAKERSUN99/MAUS/blob/main/IMG/1678098086510a.jpg" width="600" />
+<img src="https://github.com/MAKERSUN99/MAUS/blob/main/IMG/1678098086495a.jpg" width="600" />
 Arduino based Mouse Jiggler
 MAUS creates fake mouse movements to emulate activity and disable screensaver.
 <br><br>
