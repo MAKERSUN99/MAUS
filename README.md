@@ -24,4 +24,3 @@ For setting up Arduino software follow
 <a href="http://digistump.com/wiki/digispark/tutorials/connecting" target="_blank"><u>this link</u></a><br><br>
 Micronucleus bootloader and info 
 <a href="https://github.com/micronucleus/micronucleus" target="_blank"><u>here</u></a><br><br>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/102300359/224273886-b7e99e49-bca3-4814-879b-fc80c3a91433.gif)
