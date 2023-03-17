@@ -23,7 +23,7 @@
           },
           "boards": [
             {
-              "name": "Default - 16.5mhz"
+              "name": "MAUS Default - 16.5mhz"
             }
           ],
           "toolsDependencies": [
@@ -39,7 +39,8 @@
             }
           ]
         }
-		],
+
+         ],
          "tools":[
             {
              "name": "micronucleus",
@@ -52,8 +53,9 @@
                  "checksum": "SHA-256:96dbf48e786dac7236516347e06beb8c36c754443afdcba782084f203a7b67d8",
                  "size": "256"
                }
-			   ]
-			},
+
+             ]
+           },
            {
           "name": "arm-none-eabi-gcc",
           "version": "4.8.3-2014q1",
@@ -89,6 +91,6 @@
           ]
         }
         ]
-    }
+      }
    ]
 }
