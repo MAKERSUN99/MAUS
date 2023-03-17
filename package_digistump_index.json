@@ -12,9 +12,9 @@
          {
           "name": "MAUS",
           "architecture": "avr",
-          "version": "1.6.7",
+          "version": "1.0",
           "category": "MAUS",
-          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/digistump-avr-1.6.7.zip",
+          "url": "https://github.com/MAKERSUN99/MAUS/releases/download/1.0/MAUS-master.zip",
           "archiveFileName": "MAUS-master.zip",
           "checksum": "SHA-256:7F7E9F5AB982163F7A792C411326F0192A35B8A90890B7934F2F424A5426583D",
           "size": "4079",
