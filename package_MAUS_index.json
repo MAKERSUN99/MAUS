@@ -6,24 +6,24 @@
          "websiteURL":"http://makersun.net",
          "email":"makersun@protonmail.com",
          "help":{
-            "online":"https://www.makersun.net/maus/"
+            "online":"https://github.com/MAKERSUN99/MAUS"
          },
          "platforms":[
          {
           "name": "MAUS",
           "architecture": "avr",
-          "version": "1.6.7",
+          "version": "1.0",
           "category": "MAUS",
           "url": "https://github.com/MAKERSUN99/MAUS/releases/download/1.0/MAUS-master.zip",
           "archiveFileName": "MAUS-master.zip",
           "checksum": "SHA-256:7F7E9F5AB982163F7A792C411326F0192A35B8A90890B7934F2F424A5426583D",
-          "size": "4079",
+          "size": "2491070",
           "help": {
             "online": "https://github.com/MAKERSUN99/MAUS/issues"
           },
           "boards": [
             {
-              "name": "Default - 16.5mhz"
+              "name": "MAUS (Default - 16.5mhz)"
             }
           ],
           "toolsDependencies": [
@@ -33,44 +33,25 @@
               "version": "4.8.1-arduino5"
             },
             {
-              "packager": "MAUS",
+              "packager": "MAKERSUN99",
               "name": "micronucleus",
               "version": "2.0a4"
             }
           ]
-        },
+        }
+
+         ],
          "tools":[
             {
              "name": "micronucleus",
              "version": "2.0a4",
              "systems": [
                {
-                 "host": "x86_64-apple-darwin",
-                 "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
-                 "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
-                 "size": "51203"
-               },
-               {
                  "host": "i686-mingw32",
-                 "archiveFileName": "micronucleus-2.0a4-win.zip",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
+                 "archiveFileName": "micronucleus-cli-master-882e7b4a-x86_64-MINGW64_NT-10.0-17763.zip",
+                 "url": "https://github.com/MAKERSUN99/micronucleus/releases/download/2.6/micronucleus-cli-master-882e7b4a-x86_64-MINGW64_NT-10.0-17763.zip",
                  "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
                  "size": "1712005"
-               },
-               {
-                 "host": "i686-linux-gnu",
-                 "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
-                 "checksum": "SHA-256:0D4286388EED28D1ECB29AFE81253F24F54D4F0A5C1B2C17507EABD504C595F8",
-                 "size": "21909"
-               },
-               {
-                 "host": "x86_64-linux-gnu",
-                 "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
-                 "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
-                 "size": "22874"
                }
 
              ]
@@ -107,9 +88,9 @@
               "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
               "size": "51029223"
             }
-            ]
+          ]
         }
         ]
-    }
-    ]
+      }
+   ]
 }
