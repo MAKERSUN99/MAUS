@@ -50,8 +50,8 @@
                  "host": "i686-mingw32",
                  "archiveFileName": "micronucleus-cli-master-882e7b4a-x86_64-MINGW64_NT-10.0-17763.zip",
                  "url": "https://github.com/MAKERSUN99/micronucleus/releases/download/2.6/micronucleus-cli-master-882e7b4a-x86_64-MINGW64_NT-10.0-17763.zip",
-                 "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
-                 "size": "1712005"
+                 "checksum": "SHA-256:96dbf48e786dac7236516347e06beb8c36c754443afdcba782084f203a7b67d8",
+                 "size": "266240"
                }
 
              ]
