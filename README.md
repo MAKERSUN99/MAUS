@@ -13,12 +13,12 @@ MAUS featuring on board red led and WS2812B rgb led.
 <br><br>
 Arduino code and Kicad schematics are fully open source.<br><br>
 <p align="center"><img src="https://github.com/MAKERSUN99/MAUS/blob/main/IMG/1678271177181.jpg" width="600" /></p>
-# Main Features:<br><br>
+Main Features:<br><br>
 ATTINY85 MCU<br>
 RED LED pin PB0<br>
 WS2812B RGB LED on pin PB1<br>
 PB2 PB3 and PB4 free to program<br>
-# DEFAULT FUSE SETTINGS:<br>
+DEFAULT FUSE SETTINGS:<br>
 Lfuse: 0xE1 - (digispark default) PLL Clock + Startup 64 ms<br>
 Hfuse: 0xDD - External Reset pin enabled (Pin5 not usable as I/O) + BOD 2.7 V + Enable Serial Program and Data Downloading<br>
 Efuse: 0xFE - self programming enabled.<br><br>
