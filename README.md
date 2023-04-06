@@ -18,13 +18,13 @@ ATTINY85 MCU<br>
 RED LED pin PB0<br>
 WS2812B RGB LED on pin PB1<br>
 PB2 PB3 and PB4 free to program<br>
-DEFAULT FUSE SETTINGS:<br>
+DEFAULT FUSE SETTINGS:<br><br>
 Lfuse: 0xE1 - (digispark default) PLL Clock + Startup 64 ms<br>
 Hfuse: 0xDD - External Reset pin enabled (Pin5 not usable as I/O) + BOD 2.7 V + Enable Serial Program and Data Downloading<br>
 Efuse: 0xFE - self programming enabled.<br><br>
 MAUS comes with Arduino software installed, simply insert into USB<br>
 Feels free to change software on your needs<br><br>
-For setting up Arduino software follow 
-<a href="http://digistump.com/wiki/digispark/tutorials/connecting" target="_blank"><u>this link</u></a><br><br>
+For setting up Arduino software:<br>
+Board manager URL: http://digistump.com/package_digistump_index.json
 Micronucleus bootloader and info 
 <a href="https://github.com/micronucleus/micronucleus" target="_blank"><u>here</u></a><br><br>
