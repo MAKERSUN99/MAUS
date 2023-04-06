@@ -17,8 +17,8 @@ Main Features:<br><br>
 ATTINY85 MCU<br>
 RED LED pin PB0<br>
 WS2812B RGB LED on pin PB1<br>
-PB2 PB3 and PB4 free to program<br>
-DEFAULT FUSE SETTINGS:<br><br>
+PB2 PB3 and PB4 free to program<br><br>
+DEFAULT FUSE SETTINGS:<br>
 Lfuse: 0xE1 - (digispark default) PLL Clock + Startup 64 ms<br>
 Hfuse: 0xDD - External Reset pin enabled (Pin5 not usable as I/O) + BOD 2.7 V + Enable Serial Program and Data Downloading<br>
 Efuse: 0xFE - self programming enabled.<br><br>
