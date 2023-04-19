@@ -57,12 +57,12 @@ void loop() {
   state = state ^ 1;
   if (state == 1) {
     DigiMouse.moveY(1);
-    analogWrite(LED, 14);
+    analogWrite(LED, 24);
     DigiMouse.delay(1000);
     analogWrite(LED, 4);
   } else {
     DigiMouse.moveY(-1);
-    analogWrite(LED, 14);
+    analogWrite(LED, 24);
     DigiMouse.delay(1000);
     analogWrite(LED, 4);
   }
