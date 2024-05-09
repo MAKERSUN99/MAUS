@@ -38,6 +38,7 @@ void setup() {
 }
 //
 void loop() {
+  DigiKeyboard.delay(6000); 
   digitalWrite(LED, HIGH); //turn led on when start
   DigiKeyboard.delay(500);
   DigiKeyboard.update();
