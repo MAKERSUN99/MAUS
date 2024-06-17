@@ -25,8 +25,6 @@ Hfuse: 0xDD - External Reset pin enabled (Pin5 not usable as I/O) + BOD 2.7 V + 
 Efuse: 0xFE - self programming enabled.<br><br>
 MAUS comes with Arduino software installed, simply insert into USB<br>
 Feels free to change software on your needs<br><br>
-For setting up Arduino software:<br>
-Board manager URL: http://digistump.com/package_digistump_index.json<br>
 Adafruit Neopixel Library: To use this library, open the Library Manager in the Arduino IDE and install it from there.<br><br>
 Micronucleus bootloader and info 
 <a href="https://github.com/micronucleus/micronucleus" target="_blank"><u>here</u></a><br><br>
