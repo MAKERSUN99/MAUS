@@ -44,13 +44,13 @@ void mouseMove() {
   state = state ^ 1;
   if (state == 1) {
     DigiMouse.moveY(1);
-    analogWrite(LED, 24);
-    DigiMouse.delay(1000);
+    analogWrite(LED, 20);
+    DigiMouse.delay(500);
     analogWrite(LED, 4);
   } else {
     DigiMouse.moveY(-1);
-    analogWrite(LED, 24);
-    DigiMouse.delay(1000);
+    analogWrite(LED, 20);
+    DigiMouse.delay(500);
     analogWrite(LED, 4);
   }
 }
@@ -74,7 +74,7 @@ void ledStart() {
 Task rainbowTask(200, TASK_FOREVER, &showRainbow);
 
 // Create a task for the mouse
-Task mouseTask(10000, TASK_FOREVER, &mouseMove);
+Task mouseTask(15000, TASK_FOREVER, &mouseMove);
 
 
 void setup() {
