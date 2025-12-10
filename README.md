@@ -24,7 +24,8 @@ Lfuse: 0xE1 - PLL Clock + Startup 64 ms<br>
 Hfuse: 0xDD - External Reset pin enabled (Pin5 not usable as I/O) + BOD 2.7 V + Enable Serial Program and Data Downloading<br>
 Efuse: 0xFE - self programming enabled.<br><br>
 MAUS comes with Arduino software installed, simply insert into USB<br>
+PlatformIO Support with custom MAUS board avaiable<br>
 Feels free to change software on your needs<br><br>
 Adafruit Neopixel Library: To use this library, open the Library Manager in the Arduino IDE and install it from there.<br><br>
-Micronucleus bootloader and info 
+Micronucleus bootloader and info <br>
 <a href="https://github.com/micronucleus/micronucleus" target="_blank"><u>here</u></a><br><br>
