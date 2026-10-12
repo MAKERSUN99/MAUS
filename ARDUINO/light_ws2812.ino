@@ -2,6 +2,8 @@
 // download https://github.com/cpldcpu/light_ws2812/blob/master/light_ws2812_Arduino/light_WS2812.zip
 // install from menu: Sketch -> Include Library -> Add .zip Library
 //
+// Sketch uses 6234 bytes (94%) of program storage space. Maximum is 6586 bytes.
+// Global variables use 276 bytes (53%) of dynamic memory, leaving 236 bytes for local variables. Maximum is 512 bytes.
 
 #include <WS2812.h>        // light_ws2812 (cpldcpu)
 #include <TaskScheduler.h>
