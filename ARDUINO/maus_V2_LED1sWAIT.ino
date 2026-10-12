@@ -8,6 +8,9 @@
 // - LED blink 1 sec instead 2 sec
 // use NEO_GBR in WS2812B color
 //
+// Sketch uses 4782 bytes (72%) of program storage space. Maximum is 6586 bytes.
+// Global variables use 125 bytes (24%) of dynamic memory, leaving 387 bytes for local variables. Maximum is 512 bytes.
+//
 #include <DigiMouse.h>
 #include <Adafruit_NeoPixel.h>
 //
