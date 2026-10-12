@@ -1,3 +1,7 @@
+// TaskScheduler@4.0.4
+// Sketch uses 6568 bytes (99%) of program storage space. Maximum is 6586 bytes.
+// Global variables use 233 bytes (45%) of dynamic memory, leaving 279 bytes for local variables. Maximum is 512 bytes.
+
 #include <Adafruit_NeoPixel.h>
 #include <TaskScheduler.h>
 #include <DigiMouse.h>
