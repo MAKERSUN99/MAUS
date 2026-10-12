@@ -6,6 +6,8 @@
 //
 // changes:
 // - Use FastLED
+// Sketch uses 5492 bytes (83%) of program storage space. Maximum is 6586 bytes.
+// Global variables use 209 bytes (40%) of dynamic memory, leaving 303 bytes for local variables. Maximum is 512 bytes.
 //
 #include <DigiMouse.h>
 #include <FastLED.h>
